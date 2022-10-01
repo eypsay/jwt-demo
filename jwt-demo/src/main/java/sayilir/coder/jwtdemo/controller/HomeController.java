@@ -11,6 +11,6 @@ public class HomeController {
 
     @GetMapping
     public String Home(Principal principal) {
-        return "Hello " + principal.getName();
+        return "Hello, " + principal.getName();
     }
 }
